@@ -25,3 +25,12 @@ h3{font-size:22px;overflow-wrap:anywhere}.badge{font-size:12px;background:var(--
 small{font-size:12px}.stages small{color:#555e68}
 @media(max-width:720px){.workspace{grid-template-columns:1fr}.route,.stages{grid-template-columns:repeat(2,minmax(0,1fr))}.route small{display:none}}
 @media(prefers-reduced-motion:reduce){.route li:before{animation:none}}
+.runs .stages .current {
+    background: #f1ff45;
+    color: #132a52;
+    border-radius: 6px;
+}
+
+.runs .stages .passed {
+    background: #e7eddf;
+}
